@@ -1,4 +1,4 @@
-import NavBar from "../features/Navbar/Navbar";
+import NavBar from "../features/navbar/Navbar";
 import ProductList from "../features/product/components/ProductList";
 
 function Home() {
