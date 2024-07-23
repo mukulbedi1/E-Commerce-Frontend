@@ -1,4 +1,3 @@
-
 import { Fragment } from 'react';
 import { Disclosure, Menu, Transition } from '@headlessui/react';
 import {
@@ -16,6 +15,8 @@ const navigation = [
   { name: 'Dashboard', link: '#', user: true },
   { name: 'Team', link: '#', user: true },
   { name: 'Admin', link: '/admin', admin: true },
+  { name: 'Orders', link: '/admin/orders', admin: true },
+
 ];
 const userNavigation = [
   { name: 'My Profile', link: '/profile' },
